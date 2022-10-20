@@ -32,4 +32,9 @@ public class Eredemny implements Comparable<Eredemny>{
         }
         return thisperc.compareTo(otherperc);
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s %s", this.nev, this.reszIdo);
+    }
 }
